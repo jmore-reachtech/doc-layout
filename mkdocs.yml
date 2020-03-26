@@ -1,0 +1,32 @@
+site_name: Reach Technology
+
+nav:
+  - Home: 'index.md'
+  - 'Hardware Manual Layout':
+    - 'Reach Technology': 'HW/reach.md'
+    - 'Audience': 'HW/audience.md'
+    - 'Scope': 'HW/scope.md'
+    - 'Overview': 'HW/overview.md'
+    - 'Feature Set': 'HW/features.md'
+    - 'Theory of Operation': 'HW/operation.md'
+    - 'Installation and Setup': 'HW/installation.md'
+    - 'Troubleshooting': 'HW/troubleshooting.md'
+    - 'Appendices': 'HW/appendices.md'
+    - 'Glossary': 'HW/glossary.md'
+    - 'Index': 'HW/manual_index.md'
+  - 'Software Manual Layout':
+    - 'Reach Technology': 'SW/reach.md'
+    - 'Audience': 'SW/audience.md'
+    - 'Scope': 'SW/scope.md'
+  - 'Developer Manual Layout':
+    - 'Reach Technology': 'DEV/reach.md'
+    - 'Audience': 'DEV/audience.md'
+    - 'Scope': 'DEV/scope.md'
+
+theme: readthedocs
+
+markdown_extensions:
+    - admonition
+    - footnotes
+    - nl2br
+
